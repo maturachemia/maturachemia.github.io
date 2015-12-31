@@ -1,0 +1,96 @@
+.norm-font {
+	font-size: 1.4em; font-weight: 400; line-height: 1.6em; font-family: 'Open Sans', sans-serif; color: #9d9fa2; text-align: justify;
+}
+
+.norm-font div {
+	padding: 0px 35px;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+
+.generic {
+    padding: 45px 30px;
+}
+
+.quote {
+	text-align: center;
+}
+
+.quote  > p:nth-child(2) {
+	font-style: italic;
+}
+
+.quote img {
+	margin: 20px 0px;
+}
+
+.btn-submit {
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.42857143;
+    text-align: center;
+	width: 100%;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	
+}
+
+.btn-warning {
+	background-color: #e67e22;
+}
+
+.jumbotron {
+	padding-top: 120px;
+}
+
+hr {
+	border: 2px dotted #3D88F7;
+}
+
+.middle-banner {
+	background-color: #2ecc71;
+	text-align: center;
+}
+
+.middle-banner h1 {
+	color: #fff;
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height: 1em;
+}
+
+.middle-banner p {
+	color: #fff;
+}
+
+.middle-banner form {
+	padding: 15px;
+}
+
+#kontakt h3{
+	line-height: 1em;
+}
+
+.middle-banner-blue {
+	background-color: #3D88F7;
+}
+
+.plan h3 {
+	line-height: 1em;
+}
