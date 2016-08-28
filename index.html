@@ -48,7 +48,8 @@
            position: relative;
            padding: 0;
          } 
-         .fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {           position: absolute;
+         .fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed {  
+           position: absolute;
            top: 0;
            left: 0;
            width: 100%;
@@ -56,7 +57,7 @@
          }  
          #gmap_canvas img{
           max-width:none!important;
-          background:none!important
+          background:none!important;          
          }                                    
     </style>
     </div>
@@ -141,7 +142,11 @@
 
 				</div>
 				<div class="col-md-5">
-					<img src="images/big-image-owl.png" alt="image" class="figure">
+          <picture>
+             <source srcset="images/big-image-owl.png" media="(max-width: 500px)">
+             <source srcset="images/big-image-owl@2x.png">
+             <img src="images/big-image-owl@2x.png" data-rjs="2" alt="image" class="figure">
+          </picture>					
 				</div>
 			</div>   
 		</div>
@@ -257,8 +262,8 @@
 							<li>ul. Sokolska 13</li>        
    
          </ul>
-        <div style='overflow:hidden;height:200px;width:350px;'>
-          <div id='gmap_canvas' style='height:200px;width:350px;'></div>
+        <div style='overflow:hidden;height:200px;width:280px;'>
+          <div id='gmap_canvas' style='height:200px;width:280px'></div>
         </div>
 
 

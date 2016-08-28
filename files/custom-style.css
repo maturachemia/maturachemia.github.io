@@ -3,7 +3,7 @@
 }
 
 .norm-font div {
-	padding: 0px 35px;
+	padding: 0px 15px;
 }
 
 ul {
@@ -94,13 +94,15 @@ hr {
 .plan h3 {
 	line-height: 1em;
 }
-
+.plan.norm-font{
+	font-size: 1.6em;
+}
 .details h3{
-	line-height: 1em;
+	line-height: 0.9em;
 	font-size: 1.2em;
 }
 
 .details ul{
-	font-size: 1em;
+	font-size: 1.1em;	
 	color: #3D88F7;
 }
